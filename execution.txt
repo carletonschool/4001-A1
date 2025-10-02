@@ -1,0 +1,421 @@
+51, 51, CPU burst 
+65, 1, switch to kernel mode
+66, 10, context saved
+76, 1, find vector 14 in memory position 0x001C
+77, 1, load address 0X0165 into the PC
+78,14,ISR BODY
+92,1, IRET 
+131, 39, CPU burst 
+145, 1, switch to kernel mode
+146, 10, context saved
+156, 1, find vector 14 in memory position 0x001C
+157, 1, load address 0X0165 into the PC
+158,14,ISR BODY
+172,1, IRET 
+244, 72, CPU burst 
+263, 1, switch to kernel mode
+264, 10, context saved
+274, 1, find vector 19 in memory position 0x0026
+275, 1, load address 0X0765 into the PC
+276,19,ISR BODY
+295,1, IRET 
+323, 28, CPU burst 
+342, 1, switch to kernel mode
+343, 10, context saved
+353, 1, find vector 19 in memory position 0x0026
+354, 1, load address 0X0765 into the PC
+355,19,ISR BODY
+374,1, IRET 
+406, 32, CPU burst 
+413, 1, switch to kernel mode
+414, 10, context saved
+424, 1, find vector 7 in memory position 0x000E
+425, 1, load address 0X00BD into the PC
+426,7,ISR BODY
+433,1, IRET 
+458, 25, CPU burst 
+465, 1, switch to kernel mode
+466, 10, context saved
+476, 1, find vector 7 in memory position 0x000E
+477, 1, load address 0X00BD into the PC
+478,7,ISR BODY
+485,1, IRET 
+496, 11, CPU burst 
+512, 1, switch to kernel mode
+513, 10, context saved
+523, 1, find vector 16 in memory position 0x0020
+524, 1, load address 0X02DF into the PC
+525,16,ISR BODY
+541,1, IRET 
+595, 54, CPU burst 
+611, 1, switch to kernel mode
+612, 10, context saved
+622, 1, find vector 16 in memory position 0x0020
+623, 1, load address 0X02DF into the PC
+624,16,ISR BODY
+640,1, IRET 
+736, 96, CPU burst 
+744, 1, switch to kernel mode
+745, 10, context saved
+755, 1, find vector 8 in memory position 0x0010
+756, 1, load address 0X06EF into the PC
+757,8,ISR BODY
+765,1, IRET 
+819, 54, CPU burst 
+827, 1, switch to kernel mode
+828, 10, context saved
+838, 1, find vector 8 in memory position 0x0010
+839, 1, load address 0X06EF into the PC
+840,8,ISR BODY
+848,1, IRET 
+925, 77, CPU burst 
+936, 1, switch to kernel mode
+937, 10, context saved
+947, 1, find vector 11 in memory position 0x0016
+948, 1, load address 0X01F8 into the PC
+949,11,ISR BODY
+960,1, IRET 
+993, 33, CPU burst 
+1004, 1, switch to kernel mode
+1005, 10, context saved
+1015, 1, find vector 11 in memory position 0x0016
+1016, 1, load address 0X01F8 into the PC
+1017,11,ISR BODY
+1028,1, IRET 
+1088, 60, CPU burst 
+1104, 1, switch to kernel mode
+1105, 10, context saved
+1115, 1, find vector 16 in memory position 0x0020
+1116, 1, load address 0X02DF into the PC
+1117,16,ISR BODY
+1133,1, IRET 
+1154, 21, CPU burst 
+1170, 1, switch to kernel mode
+1171, 10, context saved
+1181, 1, find vector 16 in memory position 0x0020
+1182, 1, load address 0X02DF into the PC
+1183,16,ISR BODY
+1199,1, IRET 
+1218, 19, CPU burst 
+1220, 1, switch to kernel mode
+1221, 10, context saved
+1231, 1, find vector 2 in memory position 0x0004
+1232, 1, load address 0X0695 into the PC
+1233,2,ISR BODY
+1235,1, IRET 
+1261, 26, CPU burst 
+1263, 1, switch to kernel mode
+1264, 10, context saved
+1274, 1, find vector 2 in memory position 0x0004
+1275, 1, load address 0X0695 into the PC
+1276,2,ISR BODY
+1278,1, IRET 
+1316, 38, CPU burst 
+1332, 1, switch to kernel mode
+1333, 10, context saved
+1343, 1, find vector 16 in memory position 0x0020
+1344, 1, load address 0X02DF into the PC
+1345,16,ISR BODY
+1361,1, IRET 
+1389, 28, CPU burst 
+1405, 1, switch to kernel mode
+1406, 10, context saved
+1416, 1, find vector 16 in memory position 0x0020
+1417, 1, load address 0X02DF into the PC
+1418,16,ISR BODY
+1434,1, IRET 
+1499, 65, CPU burst 
+1515, 1, switch to kernel mode
+1516, 10, context saved
+1526, 1, find vector 16 in memory position 0x0020
+1527, 1, load address 0X02DF into the PC
+1528,16,ISR BODY
+1544,1, IRET 
+1632, 88, CPU burst 
+1648, 1, switch to kernel mode
+1649, 10, context saved
+1659, 1, find vector 16 in memory position 0x0020
+1660, 1, load address 0X02DF into the PC
+1661,16,ISR BODY
+1677,1, IRET 
+1777, 100, CPU burst 
+1794, 1, switch to kernel mode
+1795, 10, context saved
+1805, 1, find vector 17 in memory position 0x0022
+1806, 1, load address 0X05B3 into the PC
+1807,17,ISR BODY
+1824,1, IRET 
+1852, 28, CPU burst 
+1869, 1, switch to kernel mode
+1870, 10, context saved
+1880, 1, find vector 17 in memory position 0x0022
+1881, 1, load address 0X05B3 into the PC
+1882,17,ISR BODY
+1899,1, IRET 
+1924, 25, CPU burst 
+1925, 1, switch to kernel mode
+1926, 10, context saved
+1936, 1, find vector 1 in memory position 0x0002
+1937, 1, load address 0X029C into the PC
+1938,1,ISR BODY
+1939,1, IRET 
+1960, 21, CPU burst 
+1961, 1, switch to kernel mode
+1962, 10, context saved
+1972, 1, find vector 1 in memory position 0x0002
+1973, 1, load address 0X029C into the PC
+1974,1,ISR BODY
+1975,1, IRET 
+2000, 25, CPU burst 
+2019, 1, switch to kernel mode
+2020, 10, context saved
+2030, 1, find vector 19 in memory position 0x0026
+2031, 1, load address 0X0765 into the PC
+2032,19,ISR BODY
+2051,1, IRET 
+2085, 34, CPU burst 
+2104, 1, switch to kernel mode
+2105, 10, context saved
+2115, 1, find vector 19 in memory position 0x0026
+2116, 1, load address 0X0765 into the PC
+2117,19,ISR BODY
+2136,1, IRET 
+2170, 34, CPU burst 
+2178, 1, switch to kernel mode
+2179, 10, context saved
+2189, 1, find vector 8 in memory position 0x0010
+2190, 1, load address 0X06EF into the PC
+2191,8,ISR BODY
+2199,1, IRET 
+2258, 59, CPU burst 
+2266, 1, switch to kernel mode
+2267, 10, context saved
+2277, 1, find vector 8 in memory position 0x0010
+2278, 1, load address 0X06EF into the PC
+2279,8,ISR BODY
+2287,1, IRET 
+2331, 44, CPU burst 
+2346, 1, switch to kernel mode
+2347, 10, context saved
+2357, 1, find vector 15 in memory position 0x001E
+2358, 1, load address 0X0584 into the PC
+2359,15,ISR BODY
+2374,1, IRET 
+2425, 51, CPU burst 
+2440, 1, switch to kernel mode
+2441, 10, context saved
+2451, 1, find vector 15 in memory position 0x001E
+2452, 1, load address 0X0584 into the PC
+2453,15,ISR BODY
+2468,1, IRET 
+2555, 87, CPU burst 
+2566, 1, switch to kernel mode
+2567, 10, context saved
+2577, 1, find vector 11 in memory position 0x0016
+2578, 1, load address 0X01F8 into the PC
+2579,11,ISR BODY
+2590,1, IRET 
+2655, 65, CPU burst 
+2666, 1, switch to kernel mode
+2667, 10, context saved
+2677, 1, find vector 11 in memory position 0x0016
+2678, 1, load address 0X01F8 into the PC
+2679,11,ISR BODY
+2690,1, IRET 
+2738, 48, CPU burst 
+2754, 1, switch to kernel mode
+2755, 10, context saved
+2765, 1, find vector 16 in memory position 0x0020
+2766, 1, load address 0X02DF into the PC
+2767,16,ISR BODY
+2783,1, IRET 
+2834, 51, CPU burst 
+2850, 1, switch to kernel mode
+2851, 10, context saved
+2861, 1, find vector 16 in memory position 0x0020
+2862, 1, load address 0X02DF into the PC
+2863,16,ISR BODY
+2879,1, IRET 
+2916, 37, CPU burst 
+2917, 1, switch to kernel mode
+2918, 10, context saved
+2928, 1, find vector 1 in memory position 0x0002
+2929, 1, load address 0X029C into the PC
+2930,1,ISR BODY
+2931,1, IRET 
+2949, 18, CPU burst 
+2950, 1, switch to kernel mode
+2951, 10, context saved
+2961, 1, find vector 1 in memory position 0x0002
+2962, 1, load address 0X029C into the PC
+2963,1,ISR BODY
+2964,1, IRET 
+2975, 11, CPU burst 
+2977, 1, switch to kernel mode
+2978, 10, context saved
+2988, 1, find vector 2 in memory position 0x0004
+2989, 1, load address 0X0695 into the PC
+2990,2,ISR BODY
+2992,1, IRET 
+3038, 46, CPU burst 
+3040, 1, switch to kernel mode
+3041, 10, context saved
+3051, 1, find vector 2 in memory position 0x0004
+3052, 1, load address 0X0695 into the PC
+3053,2,ISR BODY
+3055,1, IRET 
+3088, 33, CPU burst 
+3100, 1, switch to kernel mode
+3101, 10, context saved
+3111, 1, find vector 12 in memory position 0x0018
+3112, 1, load address 0X03B9 into the PC
+3113,12,ISR BODY
+3125,1, IRET 
+3200, 75, CPU burst 
+3212, 1, switch to kernel mode
+3213, 10, context saved
+3223, 1, find vector 12 in memory position 0x0018
+3224, 1, load address 0X03B9 into the PC
+3225,12,ISR BODY
+3237,1, IRET 
+3325, 88, CPU burst 
+3343, 1, switch to kernel mode
+3344, 10, context saved
+3354, 1, find vector 18 in memory position 0x0024
+3355, 1, load address 0X060A into the PC
+3356,18,ISR BODY
+3374,1, IRET 
+3403, 29, CPU burst 
+3421, 1, switch to kernel mode
+3422, 10, context saved
+3432, 1, find vector 18 in memory position 0x0024
+3433, 1, load address 0X060A into the PC
+3434,18,ISR BODY
+3452,1, IRET 
+3480, 28, CPU burst 
+3481, 1, switch to kernel mode
+3482, 10, context saved
+3492, 1, find vector 1 in memory position 0x0002
+3493, 1, load address 0X029C into the PC
+3494,1,ISR BODY
+3495,1, IRET 
+3564, 69, CPU burst 
+3565, 1, switch to kernel mode
+3566, 10, context saved
+3576, 1, find vector 1 in memory position 0x0002
+3577, 1, load address 0X029C into the PC
+3578,1,ISR BODY
+3579,1, IRET 
+3627, 48, CPU burst 
+3631, 1, switch to kernel mode
+3632, 10, context saved
+3642, 1, find vector 4 in memory position 0x0008
+3643, 1, load address 0X0292 into the PC
+3644,4,ISR BODY
+3648,1, IRET 
+3684, 36, CPU burst 
+3688, 1, switch to kernel mode
+3689, 10, context saved
+3699, 1, find vector 4 in memory position 0x0008
+3700, 1, load address 0X0292 into the PC
+3701,4,ISR BODY
+3705,1, IRET 
+3804, 99, CPU burst 
+3822, 1, switch to kernel mode
+3823, 10, context saved
+3833, 1, find vector 18 in memory position 0x0024
+3834, 1, load address 0X060A into the PC
+3835,18,ISR BODY
+3853,1, IRET 
+3909, 56, CPU burst 
+3927, 1, switch to kernel mode
+3928, 10, context saved
+3938, 1, find vector 18 in memory position 0x0024
+3939, 1, load address 0X060A into the PC
+3940,18,ISR BODY
+3958,1, IRET 
+4019, 61, CPU burst 
+4035, 1, switch to kernel mode
+4036, 10, context saved
+4046, 1, find vector 16 in memory position 0x0020
+4047, 1, load address 0X02DF into the PC
+4048,16,ISR BODY
+4064,1, IRET 
+4099, 35, CPU burst 
+4115, 1, switch to kernel mode
+4116, 10, context saved
+4126, 1, find vector 16 in memory position 0x0020
+4127, 1, load address 0X02DF into the PC
+4128,16,ISR BODY
+4144,1, IRET 
+4198, 54, CPU burst 
+4208, 1, switch to kernel mode
+4209, 10, context saved
+4219, 1, find vector 10 in memory position 0x0014
+4220, 1, load address 0X07B0 into the PC
+4221,10,ISR BODY
+4231,1, IRET 
+4314, 83, CPU burst 
+4324, 1, switch to kernel mode
+4325, 10, context saved
+4335, 1, find vector 10 in memory position 0x0014
+4336, 1, load address 0X07B0 into the PC
+4337,10,ISR BODY
+4347,1, IRET 
+4398, 51, CPU burst 
+4409, 1, switch to kernel mode
+4410, 10, context saved
+4420, 1, find vector 11 in memory position 0x0016
+4421, 1, load address 0X01F8 into the PC
+4422,11,ISR BODY
+4433,1, IRET 
+4518, 85, CPU burst 
+4529, 1, switch to kernel mode
+4530, 10, context saved
+4540, 1, find vector 11 in memory position 0x0016
+4541, 1, load address 0X01F8 into the PC
+4542,11,ISR BODY
+4553,1, IRET 
+4601, 48, CPU burst 
+4607, 1, switch to kernel mode
+4608, 10, context saved
+4618, 1, find vector 6 in memory position 0x000C
+4619, 1, load address 0X0639 into the PC
+4620,6,ISR BODY
+4626,1, IRET 
+4684, 58, CPU burst 
+4690, 1, switch to kernel mode
+4691, 10, context saved
+4701, 1, find vector 6 in memory position 0x000C
+4702, 1, load address 0X0639 into the PC
+4703,6,ISR BODY
+4709,1, IRET 
+4730, 21, CPU burst 
+4735, 1, switch to kernel mode
+4736, 10, context saved
+4746, 1, find vector 5 in memory position 0x000A
+4747, 1, load address 0X048B into the PC
+4748,5,ISR BODY
+4753,1, IRET 
+4815, 62, CPU burst 
+4820, 1, switch to kernel mode
+4821, 10, context saved
+4831, 1, find vector 5 in memory position 0x000A
+4832, 1, load address 0X048B into the PC
+4833,5,ISR BODY
+4838,1, IRET 
+4879, 41, CPU burst 
+4883, 1, switch to kernel mode
+4884, 10, context saved
+4894, 1, find vector 4 in memory position 0x0008
+4895, 1, load address 0X0292 into the PC
+4896,4,ISR BODY
+4900,1, IRET 
+4948, 48, CPU burst 
+4952, 1, switch to kernel mode
+4953, 10, context saved
+4963, 1, find vector 4 in memory position 0x0008
+4964, 1, load address 0X0292 into the PC
+4965,4,ISR BODY
+4969,1, IRET 
+5032, 63, CPU burst 
